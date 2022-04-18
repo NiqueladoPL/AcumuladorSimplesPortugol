@@ -1,0 +1,115 @@
+Algoritmo "acumulador"
+
+//INICIO
+//Receber user
+//pedir o primeiro numero
+//leia o primeiro
+//verificar se é menor ou maior que 10
+//se for > 10 entao
+//contador maiorq10 + 1
+//senao
+//contador menorigual + 1
+
+//pedir o segundo numero
+//leia o segundo numero
+//se for > 10 entao
+//contador maiorq10 + 1
+//senao
+//contador menorigual + 1
+
+//pedir o terceiro numero
+//leia o terceiro numero
+//se for > 10 entao
+//contador maiorq10 + 1
+//senao
+//contador menorigual + 1
+
+//pedir o quarto numero
+//leia o quarto numero
+//se for > 10 entao
+//contador maiorq10 + 1
+//senao
+//contador menorigual + 1
+
+//pedir o quinto numero
+//leia o quinto numero
+//se for > 10 entao
+//contador maiorq10 + 1
+//senao
+//contador menorigual + 1
+
+//Apresentar os numeros
+//Apresentar quantos sao maiores q 10
+//Apresentar quantos sao menores ou iguais
+//FIM
+
+Var
+user : caractere
+num1, num2, num3, num4, num5, contMaior, contMenorIgual : real
+
+Inicio
+escrevaL ("Seja bem-vindo(a)!")
+escrevaL()
+
+escreva ("Insira o primeiro número: ")
+ leia(num1)
+escreva ("Insira o segundo número: ")
+ leia(num2)
+escreva ("Insira o terceiro número: ")
+ leia(num3)
+escreva ("Insira o quarto número: ")
+ leia(num4)
+escreva ("Insira o quinto número: ")
+ leia(num5)
+escrevaL()
+
+contMaior <- 0
+contMenorIgual <- 0
+
+<
+ se (num1 > 10) entao
+   contMaior <- (contMaior + 1)
+ senao
+   contMenorIgual <- (contMenorIgual + 1)
+ fimse
+>
+<
+ se (num2 > 10) entao
+   contMaior <- (contMaior + 1)
+ senao
+   contMenorIgual <- (contMenorIgual + 1)
+ fimse
+>
+<
+ se (num3 > 10) entao
+   contMaior <- (contMaior + 1)
+ senao
+   contMenorIgual <- (contMenorIgual + 1)
+ fimse
+>
+<
+ se (num4 > 10) entao
+   contMaior <- (contMaior + 1)
+ senao
+   contMenorIgual <- (contMenorIgual + 1)
+ fimse
+>
+<
+ se (num5 > 10) entao
+   contMaior <- (contMaior + 1)
+ senao
+   contMenorIgual <- (contMenorIgual + 1)
+ fimse
+>
+
+escrevaL ("Primeiro número: ", num1)
+escrevaL ("Segundo número: ", num2)
+escrevaL ("Terceiro número: ", num3)
+escrevaL ("Quarto número: ", num4)
+escrevaL ("Quinto número: ", num5)
+escrevaL()
+escrevaL ("Quantidade de números maiores que 10: ", contMaior)
+escrevaL ("Quantidade de números menores ou guais a 10: ", contMenorIgual)
+escrevaL()
+
+Fimalgoritmo
